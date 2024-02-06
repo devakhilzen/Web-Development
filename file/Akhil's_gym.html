@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhil's Gym</title>
+    <style>
+
+        body {
+            font-family:'Times New Roman', Times, serif ;
+            color: aliceblue;
+            background:url('zTjRcH.webp');
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 3px solid red; */
+            position: absolute;
+            left: 32px;
+            top: 23px;
+        }
+        .left img{
+            width: 118px;
+            
+
+        }
+        .left div{
+            text-align: center;
+            font-family:cursive;
+        }
+
+        .middle {
+            display: block;
+            width: 33%;
+            margin: 22px  auto;
+            /* border: 2px solid yellow; */
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            
+        }
+
+        .right {
+            position: absolute;
+            right: 32px;
+            display: inline-block;
+            /* border: 3px solid white; */
+            top: 23px;
+        }
+        .navbar{
+            display: inline-block;
+            
+        }
+        .navbar li{
+            display: inline-block;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 40px 20px;
+            font-size:larger;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        }
+        .navbar li a:hover{
+            text-decoration: underline;
+            color: rgb(0, 231, 243);
+        }
+        .btn{
+            padding: 7px;
+            margin: 1px;
+            /* border: 2px solid rgb(234, 255, 0); */
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: rgb(39, 36, 36);
+        }
+        .container{
+            /* border: 2px solid green; */
+            margin: 99px;
+            padding: 74px;
+            font-family:serif;
+            width: 40%;
+            color: rgb(0, 251, 255);
+           
+        }
+        .form-grp input{
+            text-align: center;
+            display:block;
+            border: 2px solid green;
+            padding: 9px;
+            margin: 10px;
+            width: 60%;
+            border-radius: 10px;
+            font-weight:900;
+
+        }
+        
+        .container button{
+            width: 68%;
+            margin: 3px,auto;
+            border: 2px solid green;
+            text-align: center;
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- left side for logo -->
+        <div class="left">
+            <img src="gettyimages-876895654-170667a.jpg" alt="">
+            <div>
+                AD3 GYM
+            </div>
+
+        </div>
+        <!-- middle for navigation -->
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+
+        </div>
+        <!-- right side for some buttons -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+
+        </div>
+    </header>
+    <header>
+        <div class="container">
+            <h1>Join The Gym Right Now</h1>
+            <form action="backend.php">
+                <div class="form-grp">
+                    <input type="text" name="" placeholder="your name">
+                </div>
+                <div class="form-grp">
+                    <input type="number" name="" placeholder="your age">
+                </div>
+                <div class="form-grp">
+                    <input type="text" name="" placeholder="your gender">
+                </div>
+                <div class="form-grp">
+                    <input type="text" name="" placeholder="your locality">
+                </div>
+                <button class="btn">SUBMIT NOW</button>
+        </div>
+
+        </form>
+    </header>
+    
+
+</body>
+
+</html>
